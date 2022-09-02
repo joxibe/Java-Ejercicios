@@ -1,0 +1,6 @@
+datos\MensajeDaoJDBC.class
+datos\Conexion.class
+datos\IMensajes.class
+domain\MensajeDTO.class
+mx\com\gm\appmensajes\AppMensajes.class
+usuario\MensajeUsuario.class
