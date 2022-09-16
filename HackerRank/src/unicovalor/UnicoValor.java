@@ -1,9 +1,8 @@
 package unicovalor;
 
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
+
+import java.util.ArrayList;
 
 public class UnicoValor {
 
@@ -22,8 +21,9 @@ public class UnicoValor {
 
     public static int unicoValor(List<Integer> a) {
         ArrayList<Integer> uValor = new ArrayList<>();
-        for(int n : a) {
-            if (uValor.contains(n)) {
+        for (int n : a) {
+            boolean res = uValor.contains(n);
+            if (res == true) {
                 uValor.remove(Integer.valueOf(n));
             } else {
                 uValor.add(n);
